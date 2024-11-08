@@ -34,10 +34,12 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
    ```bash
    git clone https://github.com/seu-usuario/bookings-api.git
    cd bookings-api
+   ```
 
 2. **Instale as dependências**:
   ```bash
   npm install
+  ```
 
 3. **Configure as variáveis de ambiente: Crie um arquivo .env na raiz do projeto e adicione suas configurações**:
 - DATABASE_URL=
@@ -47,10 +49,12 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 - Para rodar em modo de desenvolvimento com watch:
   ```bash
   npm run dev
+  ```
 
 - Para rodar em modo de produção:
   ```bash
   npm start
+  ```
 
 ## Créditos
 - Este projeto foi inspirado e guiado pelo conteúdo educacional da OneBitCode
