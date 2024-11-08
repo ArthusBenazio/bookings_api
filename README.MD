@@ -37,9 +37,9 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
    ```
 
 2. **Instale as dependências**:
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 
 3. **Configure as variáveis de ambiente: Crie um arquivo .env na raiz do projeto e adicione suas configurações**:
 - DATABASE_URL=
