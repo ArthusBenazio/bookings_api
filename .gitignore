@@ -1,0 +1,13 @@
+# Ignorar arquivos de configuração
+.env
+config.js
+
+# Ignorar pastas específicas
+node_modules/
+dist/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
