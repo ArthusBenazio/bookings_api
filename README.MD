@@ -36,26 +36,29 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
    cd bookings-api
 
 2. **Instale as dependências**:
+  ```bash
   npm install
 
 3. **Configure as variáveis de ambiente: Crie um arquivo .env na raiz do projeto e adicione suas configurações**:
-  DATABASE_URL=
-  JWT_SECRET=
+- DATABASE_URL=
+- JWT_SECRET=
 
 4. **Execute a aplicação**:
-  Para rodar em modo de desenvolvimento com watch:
+- Para rodar em modo de desenvolvimento com watch:
+  ```bash
   npm run dev
 
-  Para rodar em modo de produção:
+- Para rodar em modo de produção:
+  ```bash
   npm start
 
 ## Créditos
-  Este projeto foi inspirado e guiado pelo conteúdo educacional da OneBitCode
-  https://www.youtube.com/@OneBitCode 
+- Este projeto foi inspirado e guiado pelo conteúdo educacional da OneBitCode
+- https://www.youtube.com/@OneBitCode 
 
 ## Uso
-  Acesse a API em http://localhost:3000 (ou outra porta configurada).
-  Utilize ferramentas como Postman para testar as rotas e endpoints.
+- Acesse a API em http://localhost:3000 (ou outra porta configurada).
+- Utilize ferramentas como Postman para testar as rotas e endpoints.
 
 ## Contribuição
-  Este projeto é de caráter educacional e não aceita contribuições externas. Sinta-se à vontade para clonar e modificar para uso próprio.
+- Este projeto é de caráter educacional e não aceita contribuições externas. Sinta-se à vontade para clonar e modificar para uso próprio.
