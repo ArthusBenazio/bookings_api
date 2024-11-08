@@ -1,3 +1,4 @@
+require("dotenv").config();
 const User = require("./User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -29,7 +30,7 @@ class AuthService {
       throw new Error("Invalid password");
     }
 
-    const token = jwt.sign({ id: user.id, email: user.email }, "segredo-do-jwt", {
+    const token = jwt.sign({ id: user.id, email: user.email }, process.env.JWT_SECRET, {
       expiresIn: "1d",
     });
     return {
@@ -39,7 +40,7 @@ class AuthService {
   }
 
   async verifyToken(token) {
-    const decodedToken = jwt.verify(token, "segredo-do-jwt");
+    const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
     const user = await this.repository.findByEmail(decodedToken.email);
     return user;
 }
